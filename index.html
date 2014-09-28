@@ -21,16 +21,19 @@
 <body>
 
 
-    <input type="text" name="pickadate" class="datepicker" />
+    Date : <input type="text" name="pickadate" class="datepicker" /> <br />
+    Time : <input type="text" name="pickatime" class="timepicker" /> 
 
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/pickadate/lib/picker.js"></script>
     <script type="text/javascript" src="bower_components/pickadate/lib/picker.date.js"></script>
+    <script type="text/javascript" src="bower_components/pickadate/lib/picker.time.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function()
         {
             $('.datepicker').pickadate();
+            $('.timepicker').pickatime();
         });
     </script>
 
