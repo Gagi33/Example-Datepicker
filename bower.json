@@ -1,0 +1,21 @@
+{
+  "name": "Example-Datepicker",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Gagi33/Example-Datepicker",
+  "authors": [
+    "Gaël Rosset <gael.rosset@gmail.com>"
+  ],
+  "description": "An example of datepicker",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "pickadate": "~3.5.4"
+  }
+}
