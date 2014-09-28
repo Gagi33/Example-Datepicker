@@ -6,12 +6,12 @@ An simple example of datepicker
 How to Use
 ---
 
-1. Install with bower
+Install with bower
 ```Installation
 bower install
 ```
 
-2. Open index.html in your browser
+Open index.html in your browser
 
 
 Thanks
