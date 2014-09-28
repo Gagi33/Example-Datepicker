@@ -1,4 +1,4 @@
-Simple Placeholder
+Example Datepicker
 ===
 
 An simple example of datepicker
@@ -6,8 +6,8 @@ An simple example of datepicker
 How to Use
 ---
 
-1. Install with 
-```bower install
+```Installation
+bower install
 ```
 
 
