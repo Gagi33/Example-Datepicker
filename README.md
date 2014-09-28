@@ -11,6 +11,12 @@ How to Use
 bower install
 ```
 
+2. Open index.html in your browser
+
+
+Thanks
+---
+Thanks to amsul.ca for his library for pickadate : http://amsul.ca/pickadate.js/
 
 License
 ---
