@@ -32,6 +32,17 @@
     <script type="text/javascript">
         $(document).ready(function()
         {
+            // Extend the default picker options for all instances.
+            $.extend($.fn.pickadate.defaults, {
+                monthsFull: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+                weekdaysShort: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
+                today: 'Aujourd\'hui',
+                close: 'Fermer',
+                clear: 'Effacer',
+                formatSubmit: 'yyyy/mm/dd'
+            });
+
+
             $('.datepicker').pickadate();
             $('.timepicker').pickatime();
         });
