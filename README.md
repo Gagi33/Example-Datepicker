@@ -6,6 +6,7 @@ An simple example of datepicker
 How to Use
 ---
 
+1. Install with bower
 ```Installation
 bower install
 ```
