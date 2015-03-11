@@ -1,4 +1,4 @@
-Example Datepicker
+Example Datepicker by Nathan
 ===
 
 An simple example of datepicker
